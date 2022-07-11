@@ -1,6 +1,5 @@
-pi = 3.1415926535897932 
 r = float (input ("Enter the Radius:\n"))  
-a = pi*r*r
+a = 3.1415926535897932*r*r
 c = 2*pi*r
 d = 2*r
 print("The Area of the given circle:",end="")
