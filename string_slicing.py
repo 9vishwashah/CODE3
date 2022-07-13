@@ -7,6 +7,6 @@ def rotate(str1,n):
  print ("Left Rotation : ", Lfirst)
  print ("Right Rotation : ", Lsecond )
 if __name__ == "__main__":
-	input = 'Vishwa'
+	input = input("Enter a String\n")
 	d=2
 	rotate(input,d)
