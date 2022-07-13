@@ -5,4 +5,4 @@ for i in range(len(a)):
 	if i != n-1:
 		b = b + a[i]
 print ("The original string is : " + a)
-print ("The string after removal of {0} position of word: {1}".format(n,b))
+print (f"The string after removal of {n} position of word: {b}")
