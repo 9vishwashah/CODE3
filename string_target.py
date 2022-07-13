@@ -4,7 +4,7 @@ import time
 a = string.ascii_lowercase + string.digits +string.ascii_uppercase + ' ., !?;:'
 t = input("Enter the string:\n")
 b = ''.join(random.choice(a)
-								for i in range(len(t)))
+	for i in range(len(t)))
 c = ''
 res = False
 iteration = 0
